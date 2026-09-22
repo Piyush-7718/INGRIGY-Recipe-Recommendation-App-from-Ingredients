@@ -23,6 +23,8 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.ipynb
+.ipynb_checkpoints/
 
 # Node / React
 frontend/node_modules/
