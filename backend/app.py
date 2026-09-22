@@ -160,7 +160,7 @@ Task:
     
     # Check default key from notebook if none provided
     if not api_key:
-        api_key = "AIzaSyB44OO2cWQzvBCMG6Yl_yTa9XUP85u1FXc"  # Free Tier Demo key from notebook
+        api_key = "GEMINI_API_KEY"  # Free Tier Demo key from notebook
 
     if api_key and len(api_key) > 10:
         model_endpoints = [
